@@ -1,0 +1,10 @@
+GET http://localhost:3001
+
+###
+POST http://localhost:3001/api/chat HTTP/1.1
+Content-Type: application/json
+
+{
+  "userId": "60d9c72b0f8e4e16f8d5c5e4",  
+  "message": "What are the store hours?"
+}
